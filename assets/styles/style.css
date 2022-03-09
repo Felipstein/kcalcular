@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #eee;
+}
+
+.content {
+    width: 550px;
+    margin: 20px auto;
+    padding: 15px 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #c4c0fa;
+    transition: box-shadow 0.1s ease-in;
+}
+
+.content:hover {
+    box-shadow: 3px 3px 15px #b4aeff;
+}
+
+.logo {
+    user-select: none;
+    cursor: default;
+    margin-bottom: 30px;
+}
+
+.gradient {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    background-image: linear-gradient(90deg, #8d83ff 0%, #5c1cff 100%);
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient h1 {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bolder;
+}
+
+.form-container {
+    background-color: white;
+    border-radius: 30px;
+    padding: 25px 30px;
+    box-shadow: 1px 1px 10px lightgray;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-set {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-set label {
+    margin-bottom: 6px;
+    color: #888;
+    font-weight: bolder;
+}
+
+.form-set input,
+.form-set select {
+    font-size: 16px;
+    padding: 14px 20px;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    background-color: rgb(243, 246, 248);
+    transition: border-color 0.2s ease-in;
+}
+
+.form-set input:focus,
+.form-set select:focus {
+    border-color: #5c1cff;
+    outline: 0;
+}
+
+.form-set:last-child {
+    margin-top: 30px;
+}
+
+.form-set button {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Fredoka';
+    color: white;
+    background-image: linear-gradient(90deg, #7b6fff 0%, #6224ff 100%);
+    border: none;
+    border-radius: 50px;
+    padding: 15px 20px;
+    width: 90%;
+    margin: auto;
+    box-shadow: 1px 1px 10px gray;
+}
+
+.form-set button:hover,
+.form-set button:focus {
+    background-image: linear-gradient(90deg, #b6afff 0%, #6224ff 100%);
+    outline: 0;
+}
+
+.form-set button:active {
+    box-shadow: 1px 1px 5px black;
+}
+
+.form-set button span {
+    font-size: 0.7em;
+    color: lightsteelblue;
+    position: relative;
+    bottom: 1px;
+    right: 3px;
+}
+
+.result-container {
+    width: 100%;
+    margin: 20px auto 5px auto;
+    background-color: lightgray;
+    padding: 20px 20px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    box-shadow: 2px 2px 5px #d3d3d3;
+    transition: border-color 0.2s ease-in-out;
+    font-size: 1.1em;
+    line-height: 30px;
+}
+
+.result-container:hover {
+    border-color: #7b6fff;
+}
+
+.result-container ul {
+    list-style: none;
+}
+
+.result-container ul li strong {
+    color: #6224ff;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px 0 40px 0;
+    gap: 8px;
+    color: gray;
+}
+
+.by p {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+#separator {
+    font-size: 0.1em;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+#github {
+    color: #1a1a1a;
+}
+
+#linkedin {
+    color: #0a66c2;
+}
