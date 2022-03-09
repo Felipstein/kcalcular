@@ -135,7 +135,7 @@ body {
     border: 1px solid transparent;
     box-shadow: 2px 2px 5px #d3d3d3;
     transition: border-color 0.2s ease-in-out;
-    font-size: 1.1em;
+    font-size: 0.9em;
     line-height: 30px;
 }
 
@@ -184,4 +184,30 @@ footer {
 
 #linkedin {
     color: #0a66c2;
+}
+
+.waiting {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.waiting h2 {
+    font-family: 'Fredoka', sans-serif;
+    color: #5c1cff;
+    user-select: none;
+    text-shadow: 2px 2px 10px gray;
+    display: flex;
+    align-items: center;
+}
+
+#waiting-logo {
+    display: inline-block;
+    margin-left: 20px;
+    background-color: #6224ff;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    transition: transform 1s ease-in-out;
 }
