@@ -5,6 +5,11 @@
 Pequeno projeto para calculo do seu metabolismo basal, sobre seu peso e etc.
 Inspirado em https://www.youtube.com/watch?v=yiDq9wUiUjc&t=287s
 
+Para usar, clone o repositório:
+`git clone https://github.com/maateusilva/getkcal.git`
+
+Eu utilizei a extensão Live Server do VS Code para desenvolver a aplicação, talvez será necessário algum meio de executa-lo em algum servidor local.
+
 ---
 
 As fórmulas científicas para o cálculo foram retiradas, além do vídeo. em:
